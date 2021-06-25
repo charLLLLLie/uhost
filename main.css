@@ -1,4 +1,3 @@
-
 #product-overview {
     background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent  ),
      url("images/freedom.jpg") center/cover no-repeat border-box, red;
@@ -26,9 +25,10 @@
 
 }
 
-@media (min-width: 40rem){
+
+@media (min-width: 40rem) and (min-height: 40rem){
     
-    #product-overview{
+    #product-overview{ 
         height: 40vh;
         background-position: 50% 25%;
 
@@ -36,19 +36,6 @@
 
     #product-overview h1{
         font-size: 3rem;
-    }
-}
-
-@media (min-width: 60rem) and (min-height: 60rem){
-    
-    #product-overview{
-        height: 50vh;
-        background-position: 50% 25%;
-
-    }
-
-    #product-overview h1{
-        font-size: 5rem;
     }
 }
 
@@ -106,7 +93,7 @@
     margin: 0.5rem 0;
 }
 
-@media(min-width: 200rem){
+@media(min-width: 40rem){
     .plan__list {
         width: 100%;
         text-align: center;
@@ -134,7 +121,7 @@
     padding: 1rem;
 }
 
-#key-features > .section-title{
+#key-features  .section-title{
     color:white;
     margin: 2rem;
 
