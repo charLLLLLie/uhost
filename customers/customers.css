@@ -1,4 +1,4 @@
-main{
+main {
     padding-top: 2.5rem;
 }
 
@@ -6,6 +6,7 @@ main{
     font-size: 1.2rem;
 
 }
+
 /* 
 .testimonial__list {
     width: 80%;
@@ -16,8 +17,8 @@ main{
 .testimonial__image-container {
     width: 100%;
     max-width: 40rem;
-    
-    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3) ;
+
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 .testimonial__image {
@@ -63,23 +64,23 @@ main{
     margin: 0.2rem;
 }
 
-@media (min-width: 40rem){
+@media (min-width: 40rem) {
     .testimonial {
         margin: 3rem auto;
         max-width: 1500px;
-    
+
     }
 
     .testimonial__image-container {
-        
+
         display: inline-block;
         vertical-align: middle;
-        width:66%  ;
+        width: 66%;
     }
 
     .testimonial__info {
-        
-        display: inline-block; 
+
+        display: inline-block;
         vertical-align: middle;
         width: 30%;
     }
