@@ -108,7 +108,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height:  28rem;
+        height: 28rem;
 
     }
 
@@ -167,8 +167,8 @@
     }
 
     .key-feature__list {
-    display: flex;
-    justify-content:center ;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -177,8 +177,10 @@
 } */
 .modal {
     position: fixed;
-    display: none;
+    opacity: 0;
     z-index: 200;
+    transform: translateY(-3rem);
+    transition: opacity 0.2s ease-out, transform 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
     top: 20%;
     left: 30%;
     width: 40%;
